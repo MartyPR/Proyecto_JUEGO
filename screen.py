@@ -72,13 +72,13 @@ class home(tk.Frame):
             pady=11
 
         )
-        tk.Button(optionFrame,text="Score"+"📊", command=self.move_to_Score,justify= tk.CENTER,activebackground= estilo.BACKGROUND,activeforeground= estilo.TEXT,relief=tk.FLAT,bg='#E2ba15',font=("Arial",16),fg="#000000").pack(side = tk.TOP,
+        tk.Button(optionFrame,text="Score"+"", command=self.move_to_Score,justify= tk.CENTER,activebackground= estilo.BACKGROUND,activeforeground= estilo.TEXT,relief=tk.FLAT,bg='#E2ba15',font=("Arial",16),fg="#000000").pack(side = tk.TOP,
             fill = tk.X,
             padx=22,
             pady=11)
         tk.Button(
             self,
-            text="Si"+("😀"),
+            text="Si"+(""),
             #variable=self.gameMode,
             #value = value,
             command=(self.move_to_game ),
@@ -98,7 +98,7 @@ class home(tk.Frame):
             )
         tk.Button(
             self,
-            text="No"+("😔"),
+            text="No"+(""),
             #variable=self.gameMode,
             #value = value,
             command=(self.quit),
