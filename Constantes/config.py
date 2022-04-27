@@ -1,4 +1,4 @@
-from importlib.resources import open_text
+
 import random
 import re
 

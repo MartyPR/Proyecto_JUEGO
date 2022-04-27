@@ -1,8 +1,8 @@
 #contiene el control de varias ventanas , es escalable para añadir varias ventanas
-from textwrap import fill
+
 import tkinter as tk 
 from tkinter import * 
-from typing import Container
+
 from Constantes import estilo
 from screen import *
 from Constantes import estilo , config
