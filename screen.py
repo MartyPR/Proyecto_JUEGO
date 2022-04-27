@@ -407,7 +407,7 @@ class win(tk.Frame):
         )
         tk.Button(
            self,
-            text= "💾GUARDAR",
+            text= "GUARDAR",
             command=self.Guardar,
             **estilo.STYLE,
             relief=tk.FLAT, 
